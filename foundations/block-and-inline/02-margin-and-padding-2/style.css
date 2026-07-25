@@ -7,7 +7,7 @@ body {
   width: 450px;
   background: white;
   margin: 16px auto;
-  padding: 20px 10px;
+  padding: 20px 10px 10px;
   
 }
 
@@ -16,7 +16,7 @@ body {
 .button-container {
   background: dodgerblue;
   margin: 10px;
-  padding: 20px;
+  padding: 15px;
 }
 
 button {
