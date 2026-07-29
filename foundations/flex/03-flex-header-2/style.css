@@ -58,8 +58,8 @@ ul {
   align-items: center;
   justify-content: flex-end;
   margin: 0px;
-  padding: 10px;
-  gap: 20px;
+  padding: 8px;
+  gap: 16px;
 }
 
 .left {
@@ -67,7 +67,7 @@ ul {
   align-items: center;
   justify-content: flex-start;
   margin: 0px;
-  padding: 10px;
+  padding: 8px;
 
 }
 
