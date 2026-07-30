@@ -32,3 +32,16 @@ body {
   align-items: center;
 }
 
+.header, .footer{
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
