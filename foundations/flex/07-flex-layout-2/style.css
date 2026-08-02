@@ -50,8 +50,8 @@ body {
 .sidebar {
   width: 300px;
   height: auto;
-  flex: auto;
-  flex-shrink: none;
+  display: flex;
+  flex: 1 0 auto;
 }
 
 a {
@@ -67,10 +67,23 @@ ul {
 .cards {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  flex: auto;
+  margin-right: 300px;
+  padding: 28px;
 }
 
 .card {
   display: flex;
   flex: auto;
+  width: 250px;
+  height: auto;
+  margin: 20px;
+  padding: 20px
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
 }
